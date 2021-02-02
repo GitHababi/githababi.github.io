@@ -9,3 +9,4 @@ Use my [installer](https://github.com/GitHababi/HababisoftInstaller/releases/dow
 Note that most of my programs require .NET Core 3.1 for Windows x86-x64, so get that [here](https://dotnet.microsoft.com/download/dotnet-core/3.1).
 
 *Logo and Fan Art by [Kyle](https://www.instagram.com/st9rm._/)* 
+ 
