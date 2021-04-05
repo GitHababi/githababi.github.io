@@ -1,9 +1,7 @@
 # Hababi
-Hi, my name is Heerod. I make software whenever I feel like it.
+Hi, my name is Heerod. I make software whenever I feel like it. You can use it, just give me credit in whatever you use it in.
 
 If you want to contact me, use my main email: heerods@gmail.com.
-
-My other projects suck balls so don't even.
 
 Use my [installer](https://github.com/GitHababi/HababisoftInstaller/releases/download/1/HababisoftInstaller.exe) to download my Programs.
 You can use my installer to install .NET Core 3.1 x64 but if that does not work, get it from [here](https://dotnet.microsoft.com/download/dotnet-core/3.1).
