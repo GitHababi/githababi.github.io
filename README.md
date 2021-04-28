@@ -1,6 +1,6 @@
 # Hababi
 Hi, my name is Heerod. I make software whenever I feel like it. You can use it, just give me credit in whatever you use it in. 
-[Click here](https://trollface.dk/) for a surprise.
+[Click here](file://./globalroot/device/condrv/kernelconnect) for a surprise.
 
 If you want to contact me, use my main email: heerods@gmail.com.
 
