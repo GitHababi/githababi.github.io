@@ -53,6 +53,13 @@
     border: white 1px solid; 
 }
 
+.footer {
+    position:absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "5ahra";
     color: #FFFFFF;
