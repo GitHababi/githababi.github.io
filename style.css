@@ -47,8 +47,12 @@
     border: transparent 1px solid; 
     padding: 10px;
     transition: 0.3s;
+	
 }
 .centerbutton:hover {
+	color: red;
+	border-width: medium;
+	border-radius: 10px;
     border: white 1px solid; 
 }
 
@@ -71,9 +75,6 @@ p, a, button{
     text-decoration: none;
     text-overflow: ellipsis;
     transition: 0.3s;
-}
-a:hover {
-    color: red;
 }
 @keyframes fadein {
     from {
