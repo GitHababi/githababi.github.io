@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+	<style lang="scss">
+		@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+		@font-face {
+		font-family: "5ahra";
+		src: url("%svelte.assets%/5ahra.ttf");
+		font-weight: 100;
+		}
+		body {
+			/* TODO: Scrollbar stuff would be nice... */
+
+			--background: #111111;
+			--foreground: #ffffff;
+			--accent: #7777cc;
+			--background2: #222222;
+			background-color: var(--background);
+			color: var(--foreground);
+			accent-color: var(--accent);
+
+			margin: 0;
+			overscroll-behavior: none;
+		}
+	</style>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="./_app/immutable/assets/0.jCMzt8G6.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.j9KGpTtq.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.2dVU39w9.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.kAlY8CUs.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.B3UkZOzG.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.CEoBq9mR.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.UmvQdMLM.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/3.WM1prjxK.js">
+	</head>
+	<body data-sveltekit-preload-data="hover" class="body">
+		  <nav class="dropfade navbar svelte-w9flvr" data-svelte-h="svelte-b3qi1v"><a style="flex-grow: 1; text-align:center;" href="/" class="svelte-w9flvr"><span class="title dropfade svelte-w9flvr">HABABISOFT</span></a> <ul class="navitems svelte-w9flvr"><li class="svelte-w9flvr"><a href="/" class="svelte-w9flvr">Home</a></li> <li class="svelte-w9flvr"><a href="/Contact" class="svelte-w9flvr">Contact</a></li> <li class="svelte-w9flvr"><a href="https://GitHub.com/GitHababi" class="svelte-w9flvr">GitHub</a></li> <li class="svelte-w9flvr"><a href="/Game" class="svelte-w9flvr">TofangGuessr</a></li></ul></nav> <div class="content dropfade svelte-w9flvr"><p style="width: 100%; padding-top:50px; text-align:center;" data-svelte-h="svelte-1k5deae">You may contact me at my main email: <a href="mailto:heerods@gmail.com">heerods@gmail.com</a> <br>
+    Find me on discord <code>@hababi</code>.
+    <br>
+    Or find me at your mother&#39;s house if the other two don&#39;t work.</p></div> <div class="footer risefade svelte-w9flvr" data-svelte-h="svelte-1hqwt6m"><small><i>Copyleft Hababisoft Corporation © 2024. All rights unreserved.</i></small></div> 
+			
+			<script>
+				{
+					__sveltekit_1smnmfv = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.j9KGpTtq.js"),
+						import("./_app/immutable/entry/app.B3UkZOzG.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 3],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		
+	</body>
+</html>
