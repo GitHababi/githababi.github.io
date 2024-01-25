@@ -13,6 +13,9 @@ const config = {
 		}),
 		paths: {
 			base: process.argv.includes('dev') ? '' : /** @type {`/${string}`} */ (process.env.BASE_PATH)
+		},
+		prerender: {
+			// entries: []
 		}
 	}
 };
