@@ -1,35 +1,72 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="with=device-width, initial-scale=1.0">
-        <meta property="og:type" content="website">
-        <meta property="og:site_name" content="Hababisoft Corporation">
-        <meta property="og:title" content="Hababisoft Website">
-        <meta property="og:description" content="The Homepage for all things Hababisoft">
-        
-        
-        <title>Hababisoft Corporation</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<!doctype html>
+<html lang="en">
+	<style lang="scss">
+		@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+		@font-face {
+		font-family: "5ahra";
+		src: url("%svelte.assets%/5ahra.ttf");
+		font-weight: 100;
+		}
+		body {
+			/* TODO: Scrollbar stuff would be nice... */
 
-    <body>
-        <div class="main">
-            <h1 class="loadani">Hababisoft</h1>
-        </div>
-        <div class="subtitle">
-            <p class="loadani"> 
-                Hi, I make software whenever I feel like it. You can use it, just give me credit in whatever you use it in. 
-	        If you want to contact me, use my main email: heerods@gmail.com.
-                I am NOT responsible if you manage to mess up your computer with the software I provide. Most of the software I provide is free and licensed under GPLv3, so use it at your own risk.
-            </p>
-        </div>
-        <div class="centerdiv">
-			<button class="fadein centerbutton" onclick="location.href='https://github.com/GitHababi'">GitHub</button>
-        </div>
-        <div class="footer">
-            <p class="fadein" style="font-size: 2vh;">
-                This website sucks! Why? Because i am not a web developer, please teach me. (I'd like to learn react but I'm a lazy fuck)
-            </p>
-        </div>
-    </body>
+			--background: #111111;
+			--foreground: #ffffff;
+			--accent: #7777cc;
+			--background2: #222222;
+			background-color: var(--background);
+			color: var(--foreground);
+			accent-color: var(--accent);
+
+			margin: 0;
+			overscroll-behavior: none;
+		}
+	</style>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="./_app/immutable/assets/0.jCMzt8G6.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.M3Mtjpke.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.sul9R0DJ.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.kAlY8CUs.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.FOxg9MaD.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.CEoBq9mR.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.UmvQdMLM.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.tKsnNgOt.js">
+	</head>
+	<body data-sveltekit-preload-data="hover" class="body">
+		  <nav class="dropfade navbar svelte-w9flvr" data-svelte-h="svelte-b3qi1v"><a style="flex-grow: 1; text-align:center;" href="/" class="svelte-w9flvr"><span class="title dropfade svelte-w9flvr">HABABISOFT</span></a> <ul class="navitems svelte-w9flvr"><li class="svelte-w9flvr"><a href="/" class="svelte-w9flvr">Home</a></li> <li class="svelte-w9flvr"><a href="/Contact" class="svelte-w9flvr">Contact</a></li> <li class="svelte-w9flvr"><a href="https://GitHub.com/GitHababi" class="svelte-w9flvr">GitHub</a></li> <li class="svelte-w9flvr"><a href="/Game" class="svelte-w9flvr">TofangGuessr</a></li></ul></nav> <div class="content dropfade svelte-w9flvr"><h1 data-svelte-h="svelte-3kvvl0">Hi!</h1> <p style="max-width: 900px;" data-svelte-h="svelte-a2a71y">I make software whenever I feel like it. You can you use it, as long as you give me credit. (If you do actually find a use for the stuff I&#39;ve made please let me know.) I am <b>not</b> responsible if you manage to mess up your computer with my programs. Most of the software I provide is free and licensed under GPLv3, so use it at your own risk. Regardless, please enjoy this new version of my landing page.
+    <br><br>
+    Regards,
+    <br><br>
+    Hababi
+    <br><br></p></div> <div class="footer risefade svelte-w9flvr" data-svelte-h="svelte-1hqwt6m"><small><i>Copyleft Hababisoft Corporation © 2024. All rights unreserved.</i></small></div> 
+			
+			<script>
+				{
+					__sveltekit_ea81wb = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.M3Mtjpke.js"),
+						import("./_app/immutable/entry/app.FOxg9MaD.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		
+	</body>
 </html>
