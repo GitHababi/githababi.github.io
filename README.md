@@ -1,4 +1,7 @@
-# create-svelte
+# this page shouldn't be visible!
+Site under construction.
+[Check out my github in the meantime](https://github.com/GitHababi)
+
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
