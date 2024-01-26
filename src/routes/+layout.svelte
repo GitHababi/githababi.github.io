@@ -108,11 +108,9 @@
 
 	.dropfade {
 		animation: dropin 1s;
-		animation-delay: 0.5s;
 	}
 	.risefade {
 		animation: risein 1s;
-		animation-delay: 0.5s;
 	}
 	.navitems {
 		display: flex;
